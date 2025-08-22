@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: georia, serif;
+  background-color: rgb(33, 33, 94);
+  color: white;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  width: 95rem;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 6rem;
+  border-bottom: white solid 0.5rem;
+  width: 49rem;
+  margin: auto;
+  padding-top: 2.5rem;
+}
+
+.paragraph {
+  height: 47rem;
+  width: 40rem;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.feature {
+  font-size: 3.5rem;
+}
+
+u {
+  font-size: 2.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-top: 2rem;
+  font-size: 2.2rem;
+}
+
+.passgen {
+  height: 47rem;
+  width: 40rem;
+  box-shadow: 0rem 0rem 0.5rem 0.1rem rgb(109, 109, 242);
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+
+
+/* input field */
+.p1 {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+input[type="text"] {
+  height: 5rem;
+  width: 85%;
+  border-radius: 2rem 0rem 0rem 2rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+  border: grey solid 0.1rem;
+}
+
+.btn1 {
+  height: 4.93rem;
+  width: 15%;
+  border-radius: 0rem 2rem 2rem 0rem;
+  background-color: rgb(92, 252, 252);
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding: 1.2rem;
+  border: 0;
+}
+
+.btn1:hover {
+  background-color: rgb(55, 234, 234);
+}
+
+/* password length */
+.p2 {
+  display: flex;
+  margin-top: 2.5rem;
+  font-size: 2.5rem;
+  justify-content: space-between;
+}
+
+input[type="number"] {
+  height: 3rem;
+  width: 5rem;
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  border: grey solid 0.1rem;
+  border-radius: 0.5rem;
+}
+
+/* checkbox */
+input[type="checkbox"] {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+/* button  */
+.genpass {
+  height: 4rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 3.5rem;
+}
+
+.btn2 {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: grey solid 0.1rem;
+}
+
+.btn2:hover {
+  background-color: rgb(55, 234, 234);
+}
+
+.loader{height: 100vh;width: 100%;display: flex;justify-content: center;align-items: center;background-color: black;position: fixed;}
+
+
+.loader img{height: 10rem;width: 10rem;}
+
+@media only screen and (max-width:1000px) {
+  .main {
+    flex-direction: column;
+    gap: 7rem;
+    width: 40rem;
+  }
+}
+
+@media only screen and (max-width:520px) {
+  .heading {
+    font-size: 5rem;
+    width: 41rem;
+  }
+}
+
+@media only screen and (max-width:430px) {
+  html{
+    font-size:7.4px;
+  }
+}
