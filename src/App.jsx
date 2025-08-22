@@ -68,7 +68,7 @@ const App = () => {
       <p className="heading">Password Generator</p>
       <div className="main">
         <div className="paragraph">
-          <p className="feature">Feature in this Password Generetor : -</p>
+          <p className="feature">Feature in this Password Generetor :</p>
           <ul>
             <li><u>Password Generation:  </u>&nbsp;
               Allows users to generate a password based on selected criteria (uppercase letter,lowercase letter,numbers and symbols).
