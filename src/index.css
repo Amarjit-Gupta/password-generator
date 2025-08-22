@@ -156,6 +156,9 @@ input[type="checkbox"] {
     font-size: 5rem;
     width: 41rem;
   }
+  .main {
+    gap: 7rem;
+}
 }
 
 @media only screen and (max-width:430px) {
