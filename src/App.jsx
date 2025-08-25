@@ -7,7 +7,7 @@ import { RxCopy } from "react-icons/rx";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { IoMdCheckmark } from "react-icons/io";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const App = () => {
 
@@ -18,7 +18,6 @@ const App = () => {
   const [passlen, setPasslen] = useState(10);
   const [fPass, setFpass] = useState("");
   const [icon, setIcon] = useState(false);
-  const [loader, setLoader] = useState(true);
 
   const handleClick = () => {
     let charSet = "";
@@ -55,15 +54,8 @@ const App = () => {
     }
   }
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoader(false);
-    }, 500);
-  }, []);
-
   return (
     <>
-      {loader ? <div className="loader"><img src="/images/loader.gif" alt="" /></div> : ""}
       <ToastContainer />
       <p className="heading">Password Generator</p>
       <div className="main">
