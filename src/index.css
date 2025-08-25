@@ -138,11 +138,6 @@ input[type="checkbox"] {
   background-color: rgb(55, 234, 234);
 }
 
-.loader{height: 100vh;width: 100%;display: flex;justify-content: center;align-items: center;background-color: black;position: fixed;}
-
-
-.loader img{height: 10rem;width: 10rem;}
-
 @media only screen and (max-width:1000px) {
   .main {
     flex-direction: column;
